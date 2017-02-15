@@ -10,7 +10,7 @@ Standards-Version: 3.7.2
 
 Package: cassandra-reaper
 Architecture: all
-Depends: java8-runtime
+Depends: openjdk-8-jre-headless 
 Description: Software to run automated (anti-entropy) repairs of Cassandra cluster data
 
 Package: cassandra-reaper-cli

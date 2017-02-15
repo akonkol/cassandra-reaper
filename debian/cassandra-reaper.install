@@ -1,3 +1,2 @@
 bin/cassandra-reaper usr/bin
 target/cassandra-reaper*.jar usr/share/cassandra-reaper/
-target/test-classes/cassandra-reaper.yaml /etc/spotify/

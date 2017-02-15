@@ -13,7 +13,7 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-REAPER_JAR=$(ls -1 target/cassandra-reaper-*.jar)
+REAPER_JAR=$(ls -1 /usr/share/cassandra-reaper/cassandra-reaper-*.jar)
 
 if [ $REAPER_JAR ]; then
     echo "Using reaper in target"
